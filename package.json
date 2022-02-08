@@ -1,0 +1,23 @@
+{
+  "name": "stefangajicwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input_style_sheet.css -o ./dist/css/output_style_sheet.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nenasal/StefanGajicWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/nenasal/StefanGajicWebsite/issues"
+  },
+  "homepage": "https://gitlab.com/nenasal/StefanGajicWebsite#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
